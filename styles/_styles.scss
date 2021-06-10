@@ -275,6 +275,8 @@ a {
 @media (max-width: 576px) {
   .about-me {
     .h-card {
+      margin-right: 0;
+      margin-left: 0;
       .info p {
         width: 90%;
       }
