@@ -1,31 +1,24 @@
 import nodemailer from "nodemailer";
+import mailgun from "mailgun-js";
 
 export default async (req, res) => {
   try {
     if (req.method === "POST") {
       const { name, email, message } = req.body;
-      const transport = nodemailer.createTransport({
-        host: process.env.NEXT_PUBLIC_MAIL_HOST,
-        port: process.env.NEXT_PUBLIC_MAIL_PORT,
-        auth: {
-          user: process.env.NEXT_PUBLIC_MAIL_USER,
-          pass: process.env.NEXT_PUBLIC_MAIL_PASS,
-        },
+
+      const mg = mailgun({
+        apiKey: process.env.NEXT_PUBLIC_MG_KEY,
+        domain: process.env.NEXT_PUBLIC_MG_DOMAIN,
       });
 
-      let resp = await transport.sendMail({
-        from: process.env.NEXT_PUBLIC_GMAIL_USER,
+      const data = {
+        from: "mando.mando.hm@gmail.com",
         to: "hosMarey@gmail.com",
         subject: name + " | New message from hossmamarey . com",
-        html: `<div>
-          <strong> New Message From : ${name}</strong>
-          <h4>Message</h4>
-          <hr />
-          <p><strong>Email : </strong> ${email} </p>
-          <p> ${message} </p>
-          </div>`,
-        // text: message,
-      });
+        text: "EMAIL : \n " + email + " \n MESSAGE : \n " + message,
+      };
+
+      let resp = await mg.messages().send(data);
 
       if (resp) {
         res.status(200).json({ message: "done", success: true });
