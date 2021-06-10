@@ -52,6 +52,7 @@ const ContactForm = () => {
         setSuccess(true);
         formik.resetForm();
       }
+      setLoadig(false);
     },
   });
 
