@@ -15,7 +15,7 @@ const ContactForm = () => {
       .email("Not a vaild email!"),
     message: Yup.string()
       .trim()
-      .required("Name is Required")
+      .required("Message is Required")
       .min(15, "At least 15 characters")
       .max(500),
   });

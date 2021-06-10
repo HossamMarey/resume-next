@@ -23,14 +23,14 @@ const Frontend = ({ data }) => {
           </div>
         </div>
         {/* <!-- /// filter //// --> */}
-        <div className="row d-flex justify-content-center mb-4 filter-btns">
-          {/* <!-- filter btns ///////  --> */}
+        {/* <div className="row d-flex justify-content-center mb-4 filter-btns">
+       
           <button className="btn btn-primary btn-active">All</button>
           <button className="btn btn-primary">Native Js</button>
           <button className="btn btn-primary">jQuery</button>
           <button className="btn btn-primary">Vue</button>
           <button className="btn btn-primary">React</button>
-        </div>
+        </div> */}
         {/* <!-- /////// portfolio ///////// --> */}
 
         <div className="row d-flex justify-content-center mt-4">

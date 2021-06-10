@@ -56,7 +56,7 @@ const Courses = () => {
           </p>
         </div>
 
-        <div className="h-card-sec">
+        <div className="h-card-sec  ">
           <h3 className="heading-t-dark">Other Courses</h3>
           <p>
             many courses from Udemy, & Youtube about : UI/UX, Web Design & Dev.

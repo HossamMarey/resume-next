@@ -4,7 +4,7 @@ const data = [];
 export default async (req, res) => {
   try {
     if (req.method === "POST") {
-      const { name, email, mmessage } = req.body;
+      const { name, email, message } = req.body;
       const transport = nodemailer.createTransport({
         host: process.env.NEXT_PUBLIC_MAIL_HOST,
         port: process.env.NEXT_PUBLIC_MAIL_PORT,
