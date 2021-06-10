@@ -1,9 +1,12 @@
-import React from "react";
+import { useState } from "react";
 
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
 const ContactForm = () => {
+  const [loading, setLoadig] = useState(false);
+  const [success, setSuccess] = useState(false);
+
   const validationSchema = Yup.object().shape({
     name: Yup.string()
       .trim()
@@ -34,6 +37,7 @@ const ContactForm = () => {
         }
       });
 
+      setLoadig(true);
       const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + "/api/send", {
         method: "POST",
         headers: {
@@ -44,7 +48,10 @@ const ContactForm = () => {
       });
       const content = await res.json();
 
-      console.log(content);
+      if (content && content.message) {
+        setSuccess(true);
+        formik.resetForm();
+      }
     },
   });
 
@@ -139,9 +146,18 @@ const ContactForm = () => {
                     )}
                   </div>
                   <div className="row">
-                    <button className="btn btn-primary" type="submit">
+                    <button
+                      className="btn btn-primary"
+                      type="submit"
+                      disabled={loading}
+                    >
                       Send
                     </button>
+                    {success && (
+                      <p className="success-message text-center mt-3">
+                        Message has been sent successfully{" "}
+                      </p>
+                    )}
                   </div>
                 </form>
               </div>
