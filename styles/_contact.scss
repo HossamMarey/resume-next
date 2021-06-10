@@ -1,0 +1,92 @@
+.contact {
+  .h-card {
+    width: 100%;
+  }
+  .content {
+    &-data {
+      height: 40rem;
+      border-radius: 4px;
+      background-image: url("/images/contact-man.png");
+      background-repeat: no-repeat;
+      background-position: left bottom;
+    }
+    &-form {
+      form {
+        width: 80%;
+        .btn {
+          width: 100%;
+          margin: 0;
+        }
+        input,
+        textarea {
+          font-size: 1.6rem;
+          padding: 1.5rem 1rem 1.5rem 2.5rem;
+          border: 1px solid $color-gray-middle;
+          background-color: $color-gray-white;
+          border-radius: 4px;
+          &::placeholder {
+            color: $color-gray-dark;
+            font-size: 1.5rem;
+          }
+        }
+        .row {
+          margin: 2rem 0;
+        }
+        .col:first-child {
+          margin-right: 1rem;
+        }
+      }
+    }
+    .info {
+      transform: translate(4rem, -2rem);
+      &-item {
+        margin: 1rem 0;
+      }
+      i {
+        color: $color-white;
+        background-color: $color-gold-dark;
+        font-size: 1.4rem;
+        padding: 0.6rem;
+        border-radius: 30px;
+        margin-right: 1.5rem;
+      }
+      a {
+        color: $color-text-p;
+        &:hover {
+          color: $color-gold-dark;
+        }
+      }
+    }
+  }
+}
+
+// Phones
+@media (max-width: 576px) {
+  .contact {
+    .content-data {
+      height: 20rem;
+    }
+  }
+}
+
+// tablets
+@media (max-width: 768px) {
+  .contact {
+    .content-data {
+      background: none;
+    }
+    .info {
+      transform: translate(0, 0) !important;
+    }
+  }
+}
+
+.error-message {
+  color: $color-pink;
+  font-size: 1.4rem;
+}
+
+.success-message {
+  color: #7ed37e;
+  font-size: 1.4rem;
+}

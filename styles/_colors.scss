@@ -1,0 +1,84 @@
+//////////////////
+///// Colors  ////
+
+:root {
+  --color-text-p: #202b5c;
+  --color-text-s: #363e5b;
+  --color-text-t: #595d68;
+
+  --color-white: #fff;
+  --color-pink: #ff3d71;
+  --color-blue: #3366ff;
+  --color-blue-light: #73a1ff;
+  --color-blue-dark: #598bff;
+  --color-blue-active: #f3f7ff;
+
+  --color-gold-light: #ffc84c;
+  --color-gold-dark: #ffaa01;
+
+  --color-gray-white: #f7f9fc;
+  --color-gray-light: #edf1f7; // bg
+  --color-gray-middle: #d9dde2;
+  --color-gray-dark: #8f9bb3; // icons
+
+  --main-shadow: 2px 2px 2px rgba(25, 32, 56, 0.05);
+  --blue-gradient: linear-gradient(
+    to right,
+    var(--color-blue-dark),
+    var(--color-blue-light)
+  );
+  --gold-gradient: linear-gradient(
+    to right,
+    var(--color-gold-dark),
+    var(--color-gold-light)
+  );
+}
+
+.dark {
+  --color-text-p: #e9edff;
+  --color-text-s: #cfd4e7;
+  --color-text-t: #9da2af;
+
+  --color-white: #1d1d42;
+  --color-pink: #ff3d71;
+
+  --color-blue: #928fff;
+  --color-blue-light: #524eee;
+  --color-blue-dark: #827dff;
+
+  --color-blue-active: #26264e;
+
+  --color-gold-light: #f6a407;
+  --color-gold-dark: #fec253;
+
+  --color-gray-white: #101028;
+  --color-gray-light: #141432; // bg
+  --color-gray-middle: #2a2b2c;
+  --color-gray-dark: #73a1ff; // icons
+
+  --main-shadow: 4px 4px 10px rgba(6, 10, 20, 0.1);
+}
+
+$color-text-h: var(--color-text-h);
+$color-text-p: var(--color-text-p);
+$color-text-s: var(--color-text-s);
+$color-text-t: var(--color-text-t);
+
+$color-white: var(--color-white);
+$color-pink: var(--color-pink);
+$color-blue: var(--color-blue);
+$color-blue-light: var(--color-blue-light);
+$color-blue-dark: var(--color-blue-dark);
+$color-blue-active: var(--color-blue-active);
+
+$color-gold-light: var(--color-gold-light);
+$color-gold-dark: var(--color-gold-dark);
+
+$color-gray-white: var(--color-gray-white);
+$color-gray-light: var(--color-gray-light); // bg
+$color-gray-middle: var(--color-gray-middle);
+$color-gray-dark: var(--color-gray-dark); // icons
+
+$main-shadow: var(--main-shadow);
+$blue-gradient: var(--blue-gradient);
+$gold-gradient: var(--gold-gradient);
