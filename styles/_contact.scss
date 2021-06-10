@@ -90,3 +90,8 @@
   color: #42aa42;
   font-size: 1.4rem;
 }
+
+input,
+textarea {
+  color: $color-text-s !important;
+}

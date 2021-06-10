@@ -48,7 +48,7 @@ const ContactForm = () => {
       });
       const content = await res.json();
 
-      if (content && content.message) {
+      if (content && content.success) {
         setSuccess(true);
         formik.resetForm();
       }
