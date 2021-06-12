@@ -14,11 +14,17 @@
       font-weight: 400;
       font-size: 1.8rem !important;
     }
+    .h-card {
+      width: 100%;
+    }
     .img {
       position: relative;
       height: 20rem;
+      width: 100%;
       img {
         height: 100%;
+        width: 100%;
+
         object-fit: cover;
         object-position: center top;
       }

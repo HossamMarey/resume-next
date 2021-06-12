@@ -28,7 +28,7 @@ const Profile = () => {
           {/* <a href="https://www.bocourses.net/" target="_blank">
             <i className="fab fa-blogger"></i>
           </a> */}
-          <a href="codv-academy" target="_blank">
+          <a href="https://www.youtube.com/codv-academy" target="_blank">
             <i className="fab fa-youtube"></i>
           </a>
         </div>
