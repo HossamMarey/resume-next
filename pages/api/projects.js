@@ -25,6 +25,17 @@ const data = [
     },
   },
   {
+    title: "BEAcademy",
+    description: "A social educational network",
+    image: "/images/projects/academy.png",
+    tags: ["html", "css", "sass", "javascript", "tailwindCss", "jQuery"],
+    links: {
+      preview: "https://beacademy.netlify.app/",
+      code: null,
+      design: null,
+    },
+  },
+  {
     title: "Tahakoom",
     description:
       "A professional project for Saudi Wireless & Remote Control Sports Federation & Robot , I built the Front-End part from scratch & the UI/UX Design",
