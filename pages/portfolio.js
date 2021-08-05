@@ -3,11 +3,7 @@ import React from "react";
 import Frontend from "../components/portfolio/Frontend";
 
 const portfolio = ({ projects }) => {
-  return (
-    <>
-      <Frontend data={projects} />
-    </>
-  );
+  return <>{projects ? <Frontend data={projects} /> : <p>Loading ... </p>}</>;
 };
 
 export async function getServerSideProps(context) {

@@ -9,11 +9,10 @@ const data = [
     tags: [
       "html",
       "css",
-      "sass",
-
-      "bootstrap",
-      "vue",
-      "nuxt",
+      "tailwindCss",
+      "ant.design",
+      "react",
+      "next",
       "node.js",
       "express.js",
       "mongodb",
