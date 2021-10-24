@@ -17,6 +17,18 @@ const Experience = ({ data }) => {
                 <h3 className="heading-t-dark"> {d.title} </h3>
                 <small> {d.date} </small>
                 <p className="d-block"> {d.company} </p>
+                {d.projects && (
+                  <div className="exp_p"> 
+                  { d.projects.map((p,ix) => (
+                    <div   key={ix}> 
+                      <span> {p.title}  </span> -
+                      <small> {d.date} </small>
+                    </div>
+                   ))}
+                  
+                  </div>
+                )}
+              
               </div>
             </div>
           ))}

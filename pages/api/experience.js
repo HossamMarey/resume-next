@@ -1,8 +1,20 @@
 const data = [
   {
     title: "Front-End Developer",
+    company: "Inovola - Remotly - Part-time",
+    date: "Aug. 2021 - Present",
+    img: "/images/companies/inovola.jpg",
+    projects: [
+      {
+        title: "BuilderZ Project",
+        date: "Aug. 2021 - Present",
+      },
+    ],
+  },
+  {
+    title: "Front-End Developer",
     company: "Alsakn - Remotly - Part-time",
-    date: "Mar 2021 - present",
+    date: "Mar. 2021 - Oct. 2021",
     img: "/images/companies/alsakn.jpg",
   },
   {

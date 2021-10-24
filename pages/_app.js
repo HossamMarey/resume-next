@@ -65,9 +65,9 @@ function MyApp({ Component, pageProps }) {
       <MainHeader />
       <div className="theme-changer" onClick={handleChangeThemeColor}>
         {theme === "dark" ? (
-          <img src="icons/sun.svg" alt="sun icon" className="sun" />
+          <img src="icons/sun.png" alt="sun icon" className="sun" />
         ) : (
-          <img src="icons/moon.svg" alt="moon icon" className="moon" />
+          <img src="icons/moon.png" alt="moon icon" className="moon" />
         )}
       </div>
       <main>

@@ -2,6 +2,26 @@
 // basic 2
 const data = [
   {
+    title: "BuilderZ",
+    description:
+      "A professional plateform for online and offline courses management ",
+    image: "/images/projects/builderz.jpg",
+    tags: [
+      "html",
+      "css",
+      "tailwindCss",
+      "ant.design",
+      "vue",
+      "nuxt",
+      "firebase",
+    ],
+    links: {
+      preview: "https://builderz.net/",
+      code: null,
+      design: null,
+    },
+  },
+  {
     title: "Trend Coupons",
     description:
       "A professional project for Sharing udemy coupons automaticly, I had used nodeJS web scraping to automate website and collect coupons from other websites",

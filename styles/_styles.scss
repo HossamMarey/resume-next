@@ -285,18 +285,20 @@ a {
 }
 
 .theme-changer {
-  position: absolute;
-  top: 0rem;
-  left: 0rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
   display: inline-block;
   width: 3rem;
   cursor: pointer;
+  z-index: 10;
 
   img {
-    width: 2.5rem;
+    width: 3rem;
+    object-fit: contain ;
     opacity: 0.6;
     transition: all 0.3s;
-    animation: fadeIn 0.7s ease-in;
+    // animation: fadeIn 0.7s ease-in;
   }
   &:hover {
     img {
