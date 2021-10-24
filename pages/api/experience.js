@@ -1,7 +1,7 @@
 const data = [
   {
     title: "Front-End Developer",
-    company: "Inovola - Remotly - Part-time",
+    company: "Inovola - Remotly - Full-time",
     date: "Aug. 2021 - Present",
     img: "/images/companies/inovola.jpg",
     projects: [

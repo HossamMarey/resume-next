@@ -44,6 +44,18 @@ const data = [
     },
   },
   {
+    title: "Alsakn",
+    description:
+      "A startup to build roommates community , still under developmenr ...",
+    image: "/images/projects/alsakn.png",
+    tags: ["html", "css", "react", "next", "strapi cms", "ant design"],
+    links: {
+      preview: "https://alsakn.com",
+      code: null,
+      design: null,
+    },
+  },
+  {
     title: "BEAcademy",
     description: "A social educational network",
     image: "/images/projects/academy.png",
@@ -64,6 +76,18 @@ const data = [
       preview: "http://tahakoom.gov.sa/",
       code: null,
       design: "https://www.behance.net/gallery/93230949/tahakoom-UI-web-Design",
+    },
+  },
+  {
+    title: "Genwin app",
+    description:
+      "part of the front-end team  - using NuxtJs - it's onboarding markiting campaigns to collect funds and donations",
+    image: "/images/projects/genwin.png",
+    tags: ["html", "css", "sass", "vue", "nuxt"],
+    links: {
+      preview: "https://newwc.genwin.app/login",
+      code: null,
+      design: null,
     },
   },
   {
@@ -90,17 +114,17 @@ const data = [
       design: null,
     },
   },
-  {
-    title: "Codv Academy",
-    description: "Form Websit to a coding campaign",
-    image: "/images/projects/codv.png",
-    tags: ["html", "css", "tailwindcss", "react", "next", "firebase"],
-    links: {
-      preview: "https://codv.net",
-      code: null,
-      design: null,
-    },
-  },
+  // {
+  //   title: "Codv Academy",
+  //   description: "Form Websit to a coding campaign",
+  //   image: "/images/projects/codv.png",
+  //   tags: ["html", "css", "tailwindcss", "react", "next", "firebase"],
+  //   links: {
+  //     preview: "https://codv.net",
+  //     code: null,
+  //     design: null,
+  //   },
+  // },
   {
     title: "Foodery Mobile view",
     description: "a web view for mobile only E-commerce app",
@@ -125,18 +149,6 @@ const data = [
     },
   },
 
-  {
-    title: "Genwin app",
-    description:
-      "part of the front-end team  - using NuxtJs - it's onboarding markiting campaigns to collect funds and donations",
-    image: "/images/projects/genwin.png",
-    tags: ["html", "css", "sass", "vue", "nuxt"],
-    links: {
-      preview: "https://newwc.genwin.app/login",
-      code: null,
-      design: null,
-    },
-  },
   {
     title: "Maham",
     description: "TODO React app, designed for my udemy course",
@@ -193,18 +205,7 @@ const data = [
       design: null,
     },
   },
-  {
-    title: "Alsakn",
-    description:
-      "A startup to build roommates community , still under developmenr ...",
-    image: "/images/projects/alsakn.png",
-    tags: ["html", "css", "react", "next", "strapi cms", "ant design"],
-    links: {
-      preview: "https://alsakn.com",
-      code: null,
-      design: null,
-    },
-  },
+
   {
     title: "AwnBank",
     description:

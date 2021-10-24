@@ -30,12 +30,12 @@ Router.onRouteChangeError = () => {
 function MyApp({ Component, pageProps }) {
   // return <Component {...pageProps} />;
 
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
     let themeColor = localStorage.getItem("theme")
       ? localStorage.getItem("theme")
-      : "light";
+      : "dark";
     setBodyThemeClass(themeColor);
   }, []);
 
