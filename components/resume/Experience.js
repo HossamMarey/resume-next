@@ -18,17 +18,14 @@ const Experience = ({ data }) => {
                 <small> {d.date} </small>
                 <p className="d-block"> {d.company} </p>
                 {d.projects && (
-                  <div className="exp_p"> 
-                  { d.projects.map((p,ix) => (
-                    <div   key={ix}> 
-                      <span> {p.title}  </span> -
-                      <small> {d.date} </small>
-                    </div>
-                   ))}
-                  
+                  <div className="exp_p">
+                    {d.projects.map((p, ix) => (
+                      <div key={ix}>
+                        <span> {p.title} </span> -<small> {p.date} </small>
+                      </div>
+                    ))}
                   </div>
                 )}
-              
               </div>
             </div>
           ))}

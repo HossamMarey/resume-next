@@ -21,13 +21,13 @@ const AboutMe = () => {
             <strong>Address : ..</strong> Mansoura (ready to relocate)
           </p>
           <p>
-            <strong>Freelance : ..</strong> Available
+            <strong>Freelance : ..</strong> Not Available
           </p>
           <p>
             <strong>Status : ..</strong> Inovola (full time)
           </p>
           <p>
-            <strong>Last Update : ..</strong> 10/2021
+            <strong>Last Update : ..</strong> 11/2021
           </p>
         </div>
         <div className="hire-me">

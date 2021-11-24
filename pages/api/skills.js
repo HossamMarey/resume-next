@@ -40,6 +40,11 @@ const data = [
         level: 1,
       },
       {
+        title: "Ant Design",
+        img: "/images/skills/ant.svg",
+        level: 1,
+      },
+      {
         title: "Material Ui",
         img: "/images/skills/material.png",
         level: 1,
