@@ -6,6 +6,7 @@ import Experience from "../components/resume/Experience";
 import Langauge from "../components/resume/Langauge";
 import Skills from "../components/resume/Skills";
 
+
 const Resume = ({ experience, skills }) => {
   return (
     <div className="resume">

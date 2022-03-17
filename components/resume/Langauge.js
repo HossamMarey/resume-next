@@ -25,7 +25,7 @@ const Langauge = () => {
           </div>
           <div className="lang ms-4">
             <h3 className="heading-t-dark">English</h3>
-            <p>Very Good</p>
+            <p> Professional Working Proficiency </p>
           </div>
         </div>
       </div>

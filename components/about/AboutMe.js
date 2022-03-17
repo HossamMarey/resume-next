@@ -7,8 +7,8 @@ const AboutMe = () => {
       <div className="h-card d-flex">
         <h3 className="heading-t h-card-sec">About Me</h3>
         <p className="p h-card-sec">
-          A Frontend / UI Web Developer from Egypt, Mansoura. I have a passion
-          in websites building, I love to talk with you about our unique.
+          A Frontend Developer and a self learner who is trying to turn his
+          passion into a career, <br /> I'd love to talk to you about our unique.
         </p>
         <div className="h-card-sec info">
           <p>
@@ -27,7 +27,7 @@ const AboutMe = () => {
             <strong>Status : ..</strong> Inovola (full time)
           </p>
           <p>
-            <strong>Last Update : ..</strong> 11/2021
+            <strong>Last Update : ..</strong> Jan. 2022
           </p>
         </div>
         <div className="hire-me">

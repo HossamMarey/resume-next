@@ -19,9 +19,37 @@ const Experience = ({ data }) => {
                 <p className="d-block"> {d.company} </p>
                 {d.projects && (
                   <div className="exp_p">
+
                     {d.projects.map((p, ix) => (
                       <div key={ix}>
-                        <span> {p.title} </span> -<small> {p.date} </small>
+
+                        {p.roles && p.roles.length ? (
+                          <details>
+                            <summary>  {p.title} {p.skills && p.skills.length && (
+                              <small>  ( {p.skills.map((sk, ix) => (<span key={ix}> {sk} {(ix + 1) !== p.skills.length && ','} </span>))}) </small>
+                            )} </summary>
+                            {p.description && <strong> {p.description} </strong>}
+                            <div className="exp_p-roles">
+                              <h2>  Roles:  </h2>
+                              <ul>
+
+                                {p.roles.map((role, ix) => (
+                                  <li key={ix}> {role} </li>
+                                ))}
+                              </ul>
+                            </div>
+                          </details>
+
+                        ) : (
+                          <>
+                            <span> {p.title} </span>
+                            {/* skills  */}
+                            {p.skills && p.skills.length && (
+                              <small> - ( {p.skills.map((sk, ix) => (<span key={ix}> {sk} {(ix + 1) !== p.skills.length && ','} </span>))}) </small>
+                            )}
+                          </>
+                        )}
+
                       </div>
                     ))}
                   </div>

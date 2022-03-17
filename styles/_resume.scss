@@ -71,6 +71,22 @@
         margin-left: 0.75rem;
         display: inline-block;
       }
+      details strong {
+        margin-top: 12px;
+        display: block;
+      }
+      &-roles {
+        margin-top: 7px;
+        display: flex;
+        opacity: 0.9;
+        align-items: flex-start;
+        h2 {
+          margin-right: 5px;
+          font-size: 1.6rem;
+          font-weight: 600;
+          margin-top: 3px;
+        }
+      }
     }
   }
 

@@ -27,7 +27,7 @@ const UdemyCourses = () => {
 
         <div className="h-card-sec">
           <h3 className="heading-t-dark">
-            CReact.js بالعربى ( React , Redux , Hooks, Router .. )
+            React.js بالعربى ( React , Redux , Hooks, Router .. )
           </h3>
           <small>+3000 students </small>
           <p className="d-block">
@@ -40,9 +40,26 @@ const UdemyCourses = () => {
             </a>
           </p>
         </div>
+
         <div className="h-card-sec">
-          <h4 className=" ">I have plans to make more HQ courses .</h4>
+          <h3 className="heading-t-dark">
+            Codv Academy - Youtube
+          </h3>
+          <small>+3500 subscribers </small>
+          <p className="d-block">
+            <a
+              href="https://www.youtube.com/c/Codv-academy"
+              target="_blank"
+              className="text-decoration-underline"
+            >
+              Channel link
+            </a>
+          </p>
         </div>
+
+        {/* <div className="h-card-sec">
+          <h4 className=" ">I have plans to make more HQ courses .</h4>
+        </div> */}
       </div>
     </div>
   );
