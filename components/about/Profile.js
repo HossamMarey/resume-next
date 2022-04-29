@@ -4,9 +4,24 @@ const Profile = () => {
   return (
     <div className="col-10 col-md-4 profile">
       <div className="h-card d-flex">
-        <div className="profile-img">
+        {/* <div className="profile-img">
           <img src="images/profile.jpg" alt="Hossam Profile Image" />
+        </div> */}
+
+
+        <div className="profile-img">
+          <div class="gcontainer">
+            <div class="glitch-image"></div>
+            <div class="glitch-image"></div>
+            <div class="glitch-image"></div>
+            <div class="glitch-image"></div>
+            <div class="glitch-image"></div>
+            <div class="glitch-image"></div>
+          </div>
         </div>
+
+
+
         <h1 className="heading-p">Hossam Marey</h1>
         <div className="profile-job">
           <h3 className="job-1">Front-End Developer</h3>
