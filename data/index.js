@@ -471,6 +471,16 @@ const skills = [
         img: "/images/skills/firebase.png",
         level: 2,
       },
+      {
+        title: "React-Native",
+        img: "/images/skills/react-native.png",
+        level: 2,
+      },
+      {
+        title: "GraphQl",
+        img: "/images/skills/graphql.png",
+        level: 2,
+      },
     ],
   },
   {
