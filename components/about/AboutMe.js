@@ -27,7 +27,7 @@ const AboutMe = () => {
             <strong>Status : ..</strong> Inovola (full time)
           </p>
           <p>
-            <strong>Last Update : ..</strong> Jan. 2022
+            <strong>Last Update : ..</strong> April 2022
           </p>
         </div>
         <div className="hire-me">

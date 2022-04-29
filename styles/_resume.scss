@@ -51,7 +51,13 @@
       }
     }
     .exp_p {
-      margin-top: 0.5rem;
+      margin-top: 1rem;
+      width: 100%;
+
+      @media (min-width: 991px ) {
+        width: calc(100% - 75px);
+        margin-left: auto;
+      }
 
       > div {
         padding: 0.5rem 0 0.5rem 1rem;

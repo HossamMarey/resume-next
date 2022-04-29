@@ -1,8 +1,23 @@
 const experience = [
   {
+    title: "Front-End Developer (NextJS)",
+    company: "Giza Apps -  Mansoura - Full-time",
+    date: "April 2022 - Present",
+    img: "/images/companies/gizaapps.jpg",
+    projects: [
+      {
+        title: "B7r CMS Project",
+        description: "A startup like Shopify for building E-commerce CMS",
+        date: "Aug. 2021 - Present",
+        skills: ["React.js", "Next.js", "GraphQl", "Ant.Design", "React Native"],
+        roles: ['Refactoring old code and upgrading old libraries', 'Adding new features', 'help juniors with their blocking tasks', 'help in implementing the paltform code in react-native app codebase ']
+      },
+    ]
+  },
+  {
     title: "Front-End Developer (NuxtJs , NextJS)",
     company: "Inovola - Remotly - Full-time",
-    date: "Aug. 2021 - Present",
+    date: "Aug. 2021 - April 2022",
     img: "/images/companies/inovola.jpg",
     projects: [
       {
