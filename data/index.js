@@ -120,7 +120,7 @@ const projects = [
       "mongodb",
     ],
     links: {
-      preview: "https://eazy.to",
+      preview: "https://app.eazy.to",
       code: null,
       design: null,
     },
@@ -452,7 +452,12 @@ const skills = [
         title: "Vue Query",
         img: "/images/skills/vue-query.png",
         level: 1,
-      }
+      },
+      {
+        title: "Firebase",
+        img: "/images/skills/firebase.png",
+        level: 2,
+      },
     ],
   },
   {
@@ -483,11 +488,7 @@ const skills = [
       //   img: "/images/skills/strapi.png",
       //   level: 2,
       // },
-      {
-        title: "Firebase",
-        img: "/images/skills/firebase.png",
-        level: 2,
-      },
+
       {
         title: "React-Native",
         img: "/images/skills/react-native.png",
