@@ -1,23 +1,8 @@
 const experience = [
   {
-    title: "Front-End Developer (NextJS)",
-    company: "Giza Apps -  Mansoura - Full-time",
-    date: "April 2022 - Present",
-    img: "/images/companies/gizaapps.jpg",
-    projects: [
-      {
-        title: "B7r CMS Project",
-        description: "A startup like Shopify for building E-commerce CMS",
-        date: "Aug. 2021 - Present",
-        skills: ["React.js", "Next.js", "GraphQl", "Ant.Design", "React Native"],
-        roles: ['Refactoring old code and upgrading old libraries', 'Adding new features', 'help juniors with their blocking tasks', 'help in implementing the paltform code in react-native app codebase ']
-      },
-    ]
-  },
-  {
     title: "Front-End Developer (NuxtJs , NextJS)",
     company: "Inovola - Remotly - Full-time",
-    date: "Aug. 2021 - April 2022",
+    date: "Aug. 2021 - Present",
     img: "/images/companies/inovola.jpg",
     projects: [
       {
@@ -26,6 +11,13 @@ const experience = [
         date: "Aug. 2021 - Present",
         skills: ["Vue.js", "Nuxt,js", "Ant.Design", "TailwindCss"],
         roles: ['Responsible for all the frontend part.']
+      },
+      {
+        title: "Zrealtors",
+        date: "Nov. 2021 - Present",
+        description: "A property finder website.",
+        skills: ["Vue.js", "Nuxt,js", "Vutify", "TailwindCss"],
+        roles: ["build main architecture of views , components and state management store.", "help the team with the blocking tasks"]
       },
       {
         title: "Tamincom Refactor",
@@ -40,6 +32,21 @@ const experience = [
         description: "A Charity Organization website.",
         skills: ["React.js", "Next.js", "Ant.design"],
         roles: ["build main architecture of views , components and state management store."]
+      },
+    ],
+  },
+  {
+    title: "Senior Front-End Developer",
+    company: "Grand Community - Remotly - Part-time",
+    date: "May 2022 - Present",
+    img: "/images/companies/grand.png",
+    projects: [
+      {
+        title: "Whatsapp pro",
+        description: "Customer Service app based on whatsapp ",
+        date: "Aug. 2021 - Present",
+        skills: ["Vue.js", "Ant.Design", "TailwindCss", "Vue-query"],
+        roles: ['Responsible for all the frontend part.']
       },
     ],
   },
@@ -436,6 +443,16 @@ const skills = [
         img: "/images/skills/nuxt.png",
         level: 1,
       },
+      {
+        title: "Vuetify",
+        img: "/images/skills/vuetify.png",
+        level: 1,
+      },
+      {
+        title: "Vue Query",
+        img: "/images/skills/vue-query.png",
+        level: 1,
+      }
     ],
   },
   {

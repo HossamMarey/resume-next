@@ -4,10 +4,12 @@
     flex-direction: column;
     width: 100%;
     margin: 2rem auto;
-
-    .info p {
-      display: inline-block;
-      width: 50%;
+    .info {
+      min-height: 16.2rem;
+      p {
+        display: inline-block;
+        width: 50%;
+      }
     }
     .hire-me {
       text-align: center;
@@ -118,7 +120,7 @@
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .about .profile-download {
-    margin-top: 6.5rem;
+    // margin-top: 6.5rem;
   }
 }
 
