@@ -1,8 +1,8 @@
 const experience = [
   {
     title: "Front-End Developer (NuxtJs , NextJS)",
-    company: "Inovola - Remotly - Full-time",
-    date: "Aug. 2021 - Present",
+    company: "Inovola - Remotly",
+    date: " Part-Time: MAY. 2022 - PRESENT \n Full-Time: May. 2021 - May. 2022",
     img: "/images/companies/inovola.jpg",
     projects: [
       {
@@ -47,6 +47,13 @@ const experience = [
         date: "Aug. 2021 - Present",
         skills: ["Vue.js", "Ant.Design", "TailwindCss", "Vue-query"],
         roles: ['Responsible for all the frontend part.']
+      },
+      {
+        title: "GC Website",
+        description: "The main website of the company and the dashboard for all clients ",
+        date: "Aug. 2021 - Present",
+        skills: ["Vue.js", "Ant.Design", "TailwindCss", "Vue-query"],
+        roles: ['Responsible for bulding dashboard pages.', ' help and manage the frontend team']
       },
     ],
   },
