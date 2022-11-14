@@ -1,8 +1,45 @@
 const experience = [
   {
+    title: "Senior Front-End Developer",
+    company: "Grand Community - Remotly - Part-time",
+    date: "May 2022 - Present",
+    img: "/images/companies/grand.png",
+    projects: [
+      {
+        title: "Whatsapp pro",
+        description: "Customer Service app based on whatsapp ",
+        date: "Aug. 2021 - Present",
+        skills: ["Vue.js", "Ant.Design", "TailwindCss", "Vue-query"],
+        roles: ['Responsible for all the frontend part.']
+      },
+      {
+        title: "GC Website",
+        description: "The main website of the company and the dashboard for all clients ",
+        date: "Aug. 2021 - Present",
+        skills: ["Vue.js", "Vutify", "TailwindCss", "Vue-query"],
+        roles: ['Responsible for bulding dashboard pages.', ' help and manage the frontend team']
+      },
+    ],
+  },
+  {
+    title: "Senior Front-End Developer",
+    company: "The Pick Path Group - Remotly - Part-time",
+    date: "Oct 2022 - Present",
+    img: "/images/companies/commute.jpg",
+    projects: [
+      {
+        title: "Dashboard",
+        description: "Commutrics offers the comprehensive capabilities and deep industry knowledge necessary to help you solve the challenging issues of commuting to any organization",
+        date: "Aug. 2021 - Present",
+        skills: ["React.js", "Ant.Design", "TailwindCss", "react-query"],
+        roles: ['Responsible for all the frontend part.']
+      },
+    ],
+  },
+  {
     title: "Front-End Developer (NuxtJs , NextJS)",
     company: "Inovola - Remotly",
-    date: " Part-Time: MAY. 2022 - PRESENT \n Full-Time: May. 2021 - May. 2022",
+    date: "Full-Time: May. 2021 - Sep. 2022",
     img: "/images/companies/inovola.jpg",
     projects: [
       {
@@ -35,28 +72,7 @@ const experience = [
       },
     ],
   },
-  {
-    title: "Senior Front-End Developer",
-    company: "Grand Community - Remotly - Part-time",
-    date: "May 2022 - Present",
-    img: "/images/companies/grand.png",
-    projects: [
-      {
-        title: "Whatsapp pro",
-        description: "Customer Service app based on whatsapp ",
-        date: "Aug. 2021 - Present",
-        skills: ["Vue.js", "Ant.Design", "TailwindCss", "Vue-query"],
-        roles: ['Responsible for all the frontend part.']
-      },
-      {
-        title: "GC Website",
-        description: "The main website of the company and the dashboard for all clients ",
-        date: "Aug. 2021 - Present",
-        skills: ["Vue.js", "Ant.Design", "TailwindCss", "Vue-query"],
-        roles: ['Responsible for bulding dashboard pages.', ' help and manage the frontend team']
-      },
-    ],
-  },
+
   {
     title: "Front-End Developer (NextJS)",
     company: "Alsakn -  FREELANCE",
@@ -127,7 +143,68 @@ const projects = [
       "mongodb",
     ],
     links: {
-      preview: "https://app.eazy.to",
+      preview: "https://eazy.to",
+      code: null,
+      design: null,
+    },
+  },
+
+  {
+    title: "Whatsapp Pro",
+    description:
+      "Internal chat to communicate with influncers through whatsapp",
+    image: "/images/projects/wa.png",
+    tags: [
+      "html",
+      "css",
+      "tailwindCss",
+      "ant.design",
+      "vue",
+      "vue-query",
+    ],
+    links: {
+      preview: null,
+      code: null,
+      design: null,
+    },
+  },
+
+  {
+    title: "GC Dashboard",
+    description:
+      "Dashboard app that allows brands to communicate with Influncers",
+    image: "/images/projects/gc-dash.png",
+    tags: [
+      "html",
+      "css",
+      "vuetify",
+      "vue",
+      "vue-query",
+      "nuxt",
+    ],
+    links: {
+      preview: null,
+      code: null,
+      design: null,
+    },
+  },
+
+  {
+    title: "Commutrics Dashboard",
+    description:
+      "Dashboard app that allows commpanies to controle how employees commuting",
+    image: "/images/projects/commute.png",
+    tags: [
+      "html",
+      "css",
+      "ant.design",
+      "tailwindCss",
+      "react",
+      "react-query",
+      "chart.js",
+    ],
+    links: {
+      preview: null,
       code: null,
       design: null,
     },
