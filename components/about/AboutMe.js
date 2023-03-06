@@ -24,10 +24,10 @@ const AboutMe = () => {
             <strong>Freelance : ..</strong> Not Available
           </p>
           <p>
-            <strong>Status : ..</strong> Inovola (full time)
+            <strong>Status : ..</strong> MasheedGate (full time)
           </p>
           <p>
-            <strong>Last Update : ..</strong> Nov. 2022
+            <strong>Last Update : ..</strong> Mar. 2023
           </p>
         </div>
         <div className="hire-me">

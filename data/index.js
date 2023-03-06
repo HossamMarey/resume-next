@@ -1,7 +1,23 @@
 const experience = [
   {
     title: "Senior Front-End Developer",
-    company: "Grand Community - Remotly - Part-time",
+    company: "MasheedGate - Hybrid - Full-time",
+    date: "Dec. 2022 - Present",
+    img: "/images/companies/masheed.jfif",
+    projects: [
+      {
+        title: "E-commerce new website",
+        description: "We are building a new Ecommerce website for selling construction materials",
+        date: "Dec. 2022 - Present",
+        skills: ["React.js", "Remix.js" , "Ant.Design", "TailwindCss", "React-query" , "GraphQL" , "TS"],
+        roles: ['Responsible for all the frontend part.']
+      },
+     
+    ],
+  },
+  {
+    title: "Senior Front-End Developer",
+    company: "Grand Community - Remotely - Part-time",
     date: "May 2022 - Present",
     img: "/images/companies/grand.png",
     projects: [
@@ -17,14 +33,14 @@ const experience = [
         description: "The main website of the company and the dashboard for all clients ",
         date: "Aug. 2021 - Present",
         skills: ["Vue.js", "Vutify", "TailwindCss", "Vue-query"],
-        roles: ['Responsible for bulding dashboard pages.', ' help and manage the frontend team']
+        roles: ['Responsible for building dashboard pages.', ' help and manage the frontend team']
       },
     ],
   },
   {
-    title: "Senior Front-End Developer",
-    company: "The Pick Path Group - Remotly - Part-time",
-    date: "Oct 2022 - Present",
+    title: "Front-End Developer",
+    company: "The Pick Path Group",
+    date: "FREELANCE",
     img: "/images/companies/commute.jpg",
     projects: [
       {
@@ -38,8 +54,8 @@ const experience = [
   },
   {
     title: "Front-End Developer (NuxtJs , NextJS)",
-    company: "Inovola - Remotly",
-    date: "Full-Time: May. 2021 - Sep. 2022",
+    company: "Inovola - Remotely",
+    date: "Full-Time: May. 2021 - May. 2022 , Part-Time - Sep. 2022",
     img: "/images/companies/inovola.jpg",
     projects: [
       {
@@ -90,7 +106,7 @@ const experience = [
   },
   {
     title: "Front-End Developer (NuxtJs)",
-    company: "Rytalo - Remotly - Full-time",
+    company: "Rytalo - Remotely - Full-time",
     date: "Oct 2020 - Apr 2021 . 7 mos",
     img: "/images/companies/rytalo.png",
     projects: [
@@ -126,6 +142,30 @@ const experience = [
 ];
 
 const projects = [
+
+  {
+    title: "Masheed Gate",
+    description:
+      "We are building a new E-commerce website for selling construction materials",
+    image: "/images/projects/masheed-gate.png",
+    tags: [
+      "html",
+      "css",
+      "tailwindCss",
+      "ant.design",
+      "react",
+      "remix",
+      "graphql-request",
+      "nx monorepo",
+      "react-query",
+      "typescript",
+    ],
+    links: {
+      preview: "/videos",
+      code: null,
+      design: null,
+    },
+  },
   {
     title: "Eazy.to",
     description:
@@ -163,7 +203,7 @@ const projects = [
       "vue-query",
     ],
     links: {
-      preview: null,
+      preview: "/videos",
       code: null,
       design: null,
     },
@@ -183,7 +223,7 @@ const projects = [
       "nuxt",
     ],
     links: {
-      preview: null,
+      preview: "/videos",
       code: null,
       design: null,
     },
@@ -204,7 +244,7 @@ const projects = [
       "chart.js",
     ],
     links: {
-      preview: null,
+      preview: "/videos",
       code: null,
       design: null,
     },
@@ -538,6 +578,11 @@ const skills = [
         level: 1,
       },
       {
+        title: "GraphQl",
+        img: "/images/skills/graphql.png",
+        level: 2,
+      },
+      {
         title: "Firebase",
         img: "/images/skills/firebase.png",
         level: 2,
@@ -578,11 +623,7 @@ const skills = [
         img: "/images/skills/react-native.png",
         level: 2,
       },
-      {
-        title: "GraphQl",
-        img: "/images/skills/graphql.png",
-        level: 2,
-      },
+      
     ],
   },
   {
