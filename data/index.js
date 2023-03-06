@@ -18,7 +18,7 @@ const experience = [
   {
     title: "Senior Front-End Developer",
     company: "Grand Community - Remotely - Part-time",
-    date: "May 2022 - Present",
+    date: "May 2022 - Dec. 2022",
     img: "/images/companies/grand.png",
     projects: [
       {
