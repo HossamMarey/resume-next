@@ -3,7 +3,7 @@ const experience = [
     title: "Senior Front-End Developer",
     company: "MasheedGate - Hybrid - Full-time",
     date: "Dec. 2022 - Present",
-    img: "/images/companies/masheed.jfif",
+    img: "/images/companies/masheed.png",
     projects: [
       {
         title: "E-commerce new website",
