@@ -1,61 +1,48 @@
 const experience = [
   {
     title: "Senior Front-End Developer",
+    company: "Buguard - Remotely - Full-time",
+    date: "Jun. 2023 - present",
+    img: "/images/companies/buguard.png",
+    projects: [
+      {
+        title: "Dark Atlas website and dashboard",
+        description: "Dark Atlas is a proactive dark web monitoring platform that helps businesses prevent data breaches",
+        date: "Dec. 2022 - Present",
+        skills: ["React.js", "Next.js", "Ant.Design", "TailwindCss", "React-query", "TS"],
+        roles: ['Responsible for all the frontend part.', 'help and manage the frontend team']
+      },
+      {
+        title: "Buguard new website",
+        description: "Buguard, LLC is a multinational cybersecurity firm offering various services to companies worldwide, including penetration testing, GRC services, and managed security services. They operate in North America, Europe, the Middle East and Africa",
+        date: "Dec. 2022 - Present",
+        skills: ["React.js", "Next.js", "Ant.Design", "TailwindCss", "React-query", "TS"],
+        roles: ['Responsible for all the frontend part.', 'help and manage the frontend team']
+      },
+
+    ],
+  },
+  {
+    title: "Senior Front-End Developer",
     company: "MasheedGate - Hybrid - Full-time",
-    date: "Dec. 2022 - Present",
+    date: "Dec. 2022 - Aug. 2023",
     img: "/images/companies/masheed.png",
     projects: [
       {
         title: "E-commerce new website",
         description: "We are building a new Ecommerce website for selling construction materials",
         date: "Dec. 2022 - Present",
-        skills: ["React.js", "Remix.js" , "Ant.Design", "TailwindCss", "React-query" , "GraphQL" , "TS"],
+        skills: ["React.js", "Remix.js", "Ant.Design", "TailwindCss", "React-query", "GraphQL", "TS"],
         roles: ['Responsible for all the frontend part.']
       },
-     
+
     ],
   },
-  {
-    title: "Senior Front-End Developer",
-    company: "Grand Community - Remotely - Part-time",
-    date: "May 2022 - Dec. 2022",
-    img: "/images/companies/grand.png",
-    projects: [
-      {
-        title: "Whatsapp pro",
-        description: "Customer Service app based on whatsapp ",
-        date: "Aug. 2021 - Present",
-        skills: ["Vue.js", "Ant.Design", "TailwindCss", "Vue-query"],
-        roles: ['Responsible for all the frontend part.']
-      },
-      {
-        title: "GC Website",
-        description: "The main website of the company and the dashboard for all clients ",
-        date: "Aug. 2021 - Present",
-        skills: ["Vue.js", "Vutify", "TailwindCss", "Vue-query"],
-        roles: ['Responsible for building dashboard pages.', ' help and manage the frontend team']
-      },
-    ],
-  },
-  {
-    title: "Front-End Developer",
-    company: "The Pick Path Group",
-    date: "FREELANCE",
-    img: "/images/companies/commute.jpg",
-    projects: [
-      {
-        title: "Dashboard",
-        description: "Commutrics offers the comprehensive capabilities and deep industry knowledge necessary to help you solve the challenging issues of commuting to any organization",
-        date: "Aug. 2021 - Present",
-        skills: ["React.js", "Ant.Design", "TailwindCss", "react-query"],
-        roles: ['Responsible for all the frontend part.']
-      },
-    ],
-  },
+
   {
     title: "Front-End Developer (NuxtJs , NextJS)",
     company: "Inovola - Remotely",
-    date: "Full-Time: May. 2021 - May. 2022 , Part-Time - Sep. 2022",
+    date: "Full-Time: May. 2021 -  Sep. 2022",
     img: "/images/companies/inovola.jpg",
     projects: [
       {
@@ -89,21 +76,6 @@ const experience = [
     ],
   },
 
-  {
-    title: "Front-End Developer (NextJS)",
-    company: "Alsakn -  FREELANCE",
-    date: "Mar. 2021 - Oct. 2021",
-    img: "/images/companies/alsakn.jpg",
-    projects: [
-      {
-        title: "Alsakn Project",
-        description: "A startup like Airbnb for renting and housing.",
-        date: "Aug. 2021 - Present",
-        skills: ["React.js", "Next.js", "Sass", "Bootstrap"],
-        roles: ['Help in structuring of the project and building the team.']
-      },
-    ]
-  },
   {
     title: "Front-End Developer (NuxtJs)",
     company: "Rytalo - Remotely - Full-time",
@@ -141,7 +113,132 @@ const experience = [
   // },
 ];
 
+
+const freelance = [
+  {
+    title: "Front-End Developer",
+    company: "The Pick Path Group (USA)",
+    date: "2023 - 5 mos",
+    img: "/images/companies/commute.jpg",
+    projects: [
+      {
+        title: "Dashboard",
+        description: "Commutrics offers the comprehensive capabilities and deep industry knowledge necessary to help you solve the challenging issues of commuting to any organization",
+        date: "Aug. 2021 - Present",
+        skills: ["React.js", "Ant.Design", "TailwindCss", "react-query"],
+        roles: ['Responsible for all the frontend part.']
+      },
+    ],
+  },
+
+  {
+    title: "Senior Front-End Developer",
+    company: "Grand Community - Remotely - Part-time",
+    date: "2022 - 7 mos",
+    img: "/images/companies/grand.png",
+    projects: [
+      {
+        title: "Whatsapp pro",
+        description: "Customer Service app based on whatsapp ",
+        date: "Aug. 2021 - Present",
+        skills: ["Vue.js", "Ant.Design", "TailwindCss", "Vue-query"],
+        roles: ['Responsible for all the frontend part.']
+      },
+      {
+        title: "GC Website",
+        description: "The main website of the company and the dashboard for all clients ",
+        date: "Aug. 2021 - Present",
+        skills: ["Vue.js", "Vutify", "TailwindCss", "Vue-query"],
+        roles: ['Responsible for building dashboard pages.', ' help and manage the frontend team']
+      },
+    ],
+  },
+
+
+  {
+    title: "Front-End Developer (NextJS)",
+    company: "Alsakn -  FREELANCE",
+    date: "2021 - 3 mos",
+    img: "/images/companies/alsakn.jpg",
+    projects: [
+      {
+        title: "Alsakn Project",
+        description: "A startup like Airbnb for renting and housing.",
+        date: "Aug. 2021 - Present",
+        skills: ["React.js", "Next.js", "Sass", "Bootstrap"],
+        roles: ['Help in structuring of the project and building the team.']
+      },
+    ]
+  },
+
+
+];
+
+const sideprojects = [
+
+  {
+    title: "Eazy.To",
+    // company: "Grand Community - Remotely - Part-time",
+    date: "2022 - 8 mos",
+    img: "/images/companies/eazyto.png",
+    projects: [
+      {
+        title: "Website and Dashboard",
+        description: "a side project to clone bit.ly with branding and marketing tools",
+        date: "Aug. 2021 - Present",
+        skills: ["React.js", "Next.js", "Ant.design", "TailwindCss | Node.js", "Express", "MongoDB"],
+        roles: ['Responsible for all the frontend part.']
+      },
+
+    ],
+  },
+
+  {
+    title: "Trend.coupons",
+    // company: "Grand Community - Remotely - Part-time",
+    date: "2022 - 5 mos",
+    img: "/images/companies/trendcoupons.png",
+    projects: [
+      {
+        title: "Website and Admin panel",
+        description: "a side project to clone bit.ly with branding and marketing tools",
+        date: "Aug. 2021 - Present",
+        skills: ["React.js", "Next.js", "Ant.design", "TailwindCss | Node.js", "Express", "MongoDB"],
+        roles: ['Responsible for all the frontend part.']
+      },
+
+    ],
+  },
+
+
+
+];
+
+
 const projects = [
+
+  {
+    title: "Dark Atlas",
+    description:
+      "Dark Atlas is a proactive dark web monitoring platform that helps businesses prevent data breaches",
+    image: "/images/projects/dark-atlas.jpg",
+    tags: [
+      "html",
+      "css",
+      "tailwindCss",
+      "ant.design",
+      "react",
+      "next.js",
+      "react-query",
+      "typescript",
+      "react-pdf"
+    ],
+    links: {
+      preview: "https://darkatlas.io/",
+      code: null,
+      design: null,
+    },
+  },
 
   {
     title: "Masheed Gate",
@@ -623,7 +720,7 @@ const skills = [
         img: "/images/skills/react-native.png",
         level: 2,
       },
-      
+
     ],
   },
   {
@@ -658,4 +755,4 @@ const skills = [
   },
 ];
 
-export default { experience, projects, skills }
+export default { experience, projects, skills, freelance, sideprojects }

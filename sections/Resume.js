@@ -7,7 +7,7 @@ import Langauge from "../components/resume/Langauge";
 import Skills from "../components/resume/Skills";
 
 
-const Resume = ({ experience, skills }) => {
+const Resume = ({ experience, skills, freelance, side }) => {
   return (
     <div className="resume">
       <div className="container">
@@ -21,16 +21,20 @@ const Resume = ({ experience, skills }) => {
           <div className="main-grid col-12">
             <div className="lt-grid col-6">
               <Experience data={experience} />
-              <Courses />
+              <Experience data={freelance} title="Freelance" />
+              <Experience data={side} title="Side Projects" />
             </div>
             <div className="rt-grid col-6">
               <Skills data={skills} />
               <Langauge />
+              <Courses />
               <UdemyCourses />
             </div>
             <div className="mb-grid col-12">
               <Experience data={experience} />
               <Skills data={skills} />
+              <Experience data={freelance} title="Freelance" />
+              <Experience data={side} title="Side Projects" />
               <Langauge />
               <UdemyCourses />
               <Courses />

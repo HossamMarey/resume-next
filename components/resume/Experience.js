@@ -1,11 +1,11 @@
 import React from "react";
 
-const Experience = ({ data }) => {
+const Experience = ({ data, title }) => {
   return (
     <div className="experience w-100">
       <div className="h-card w-100">
         <h2 className="h-card-head h-card-sec d-flex justify-content-between">
-          <span>Experience</span>
+          <span> {title || 'Experience'}</span>
           <i className="fas fa-briefcase"></i>
         </h2>
 

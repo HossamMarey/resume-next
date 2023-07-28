@@ -5,10 +5,9 @@ import data from '../data/index'
 
 const Resume = () => {
 
-  console.log(data)
   return (
     <>
-      <ResumeSec experience={data.experience} skills={data.skills} />
+      <ResumeSec experience={data.experience} skills={data.skills} freelance={data.freelance} side={data.sideprojects} />
     </>
   );
 };
