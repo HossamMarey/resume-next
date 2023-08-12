@@ -216,6 +216,28 @@ const sideprojects = [
 
 
 const projects = [
+  {
+    title: "Buguard",
+    description:
+      "Buguard, LLC is a multinational cybersecurity firm offering various services to companies worldwide, including penetration testing, GRC services, and managed security services. They operate in North America, Europe, the Middle East and Africa",
+    image: "/images/projects/buguard.jpg",
+    tags: [
+      "html",
+      "css",
+      "tailwindCss",
+      "ant.design",
+      "react",
+      "next.js",
+      "react-query",
+      "typescript",
+      "react-pdf"
+    ],
+    links: {
+      preview: "https://buguard.io/",
+      code: null,
+      design: null,
+    },
+  },
 
   {
     title: "Dark Atlas",
