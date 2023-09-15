@@ -6,18 +6,18 @@ const experience = [
     img: "/images/companies/buguard.png",
     projects: [
       {
-        title: "Dark Atlas website and dashboard",
+        title: "Buguard Dashboards",
         description: "Dark Atlas is a proactive dark web monitoring platform that helps businesses prevent data breaches",
         date: "Dec. 2022 - Present",
         skills: ["React.js", "Next.js", "Ant.Design", "TailwindCss", "React-query", "TS"],
-        roles: ['Responsible for all the frontend part.', 'help and manage the frontend team']
+        roles: ['Developed a comprehensive dashboard enabling security leak monitoring and report export for multiple companies.']
       },
       {
-        title: "Buguard new website",
+        title: "Buguard and DarkAtlas Landing Pages",
         description: "Buguard, LLC is a multinational cybersecurity firm offering various services to companies worldwide, including penetration testing, GRC services, and managed security services. They operate in North America, Europe, the Middle East and Africa",
         date: "Dec. 2022 - Present",
         skills: ["React.js", "Next.js", "Ant.Design", "TailwindCss", "React-query", "TS"],
-        roles: ['Responsible for all the frontend part.', 'help and manage the frontend team']
+        roles: ['Created optimized landing pages to enhance SEO performance and support marketing efforts for Buguard and DarkAtlas.']
       },
 
     ],
@@ -25,15 +25,15 @@ const experience = [
   {
     title: "Senior Front-End Developer",
     company: "MasheedGate - Hybrid - Full-time",
-    date: "Dec. 2022 - Aug. 2023",
+    date: "Nov. 2022 - Jul. 2023",
     img: "/images/companies/masheed.png",
     projects: [
       {
-        title: "E-commerce new website",
+        title: "E-commerce Website Development ",
         description: "We are building a new Ecommerce website for selling construction materials",
         date: "Dec. 2022 - Present",
         skills: ["React.js", "Remix.js", "Ant.Design", "TailwindCss", "React-query", "GraphQL", "TS"],
-        roles: ['Responsible for all the frontend part.']
+        roles: ['development of a cutting-edge e-commerce platform dedicated to selling construction materials.', 'Implemented Domain-Driven Design (DDD) principles and adopted Monorepos to enhance maintenance and streamline development processes']
       },
 
     ],
@@ -42,7 +42,7 @@ const experience = [
   {
     title: "Front-End Developer (NuxtJs , NextJS)",
     company: "Inovola - Remotely",
-    date: "Full-Time: May. 2021 -  Sep. 2022",
+    date: "Full-Time: Apr. 2021 - sep. 2022",
     img: "/images/companies/inovola.jpg",
     projects: [
       {
@@ -50,7 +50,7 @@ const experience = [
         description: "E-learning and management system for selling online courses.",
         date: "Aug. 2021 - Present",
         skills: ["Vue.js", "Nuxt,js", "Ant.Design", "TailwindCss"],
-        roles: ['Responsible for all the frontend part.']
+        roles: ['Leading to the development of an E-learning and management system for selling online courses.']
       },
       {
         title: "Zrealtors",
@@ -64,37 +64,22 @@ const experience = [
         date: "Nov. 2021 - Present",
         description: "Car Insurance Website.",
         skills: ["Vue.js", "Vutify", "Typescript"],
-        roles: ['Refactor current website to enhance ui design.', "Add form validations and loading status"]
+        roles: ["Played a pivotal role as the primary frontend developer for a Car Insurance Website."]
       },
       {
         title: "VIBRANT COMMUNITY",
         date: "Nov. 2021 - Present",
         description: "A Charity Organization website.",
-        skills: ["React.js", "Next.js", "Ant.design"],
-        roles: ["build main architecture of views , components and state management store."]
+        skills: ["React.js", "Next.js", "MUI"],
+        roles: ["Designed and established the foundational architecture for views, components, and state management stores."]
       },
     ],
   },
 
   {
-    title: "Front-End Developer (NuxtJs)",
-    company: "Rytalo - Remotely - Full-time",
-    date: "Oct 2020 - Apr 2021 . 7 mos",
-    img: "/images/companies/rytalo.png",
-    projects: [
-      {
-        title: "GenWin Project",
-        date: "Oct. 2020 - Apr. 2021",
-        description: "Markiting campaigns to collect funds and donations.",
-        skills: ["Vue.js", "Nuxt,js", "Bootstrap"],
-        roles: ['Building different themes for the same project.', "Test other developers work to o achieve pixel perfect"]
-      },
-    ],
-  },
-  {
     title: "Front-End Developer",
     company: "Besteam - Nasr City - Full-time",
-    date: "Sep 2019 - Oct 2020 . 1 yr 2 mos",
+    date: "Sep. 2019 - Mar. 2021",
     img: "/images/companies/besteam.png",
     projects: [
       {
@@ -102,7 +87,7 @@ const experience = [
         date: "Oct. 2020 - Apr. 2021",
         description: "STEM Education Company.",
         skills: ["Vue.js", "jQuery", "Bootstrap"],
-        roles: ['Tahakom : Saudi Wireless & Remote Control Sports Federation.', "WRO Competions websites."]
+        roles: ['Utilized Vue.js and JQuery to create websites for Saudi Robotics competitions as part of our commitment to promoting STEAM education system.']
       },
     ],
   },
@@ -125,7 +110,7 @@ const freelance = [
         title: "Dashboard",
         description: "Commutrics offers the comprehensive capabilities and deep industry knowledge necessary to help you solve the challenging issues of commuting to any organization",
         date: "Aug. 2021 - Present",
-        skills: ["React.js", "Ant.Design", "TailwindCss", "react-query"],
+        skills: ["vue.js", "Ant.Design", "TailwindCss", "vue-query"],
         roles: ['Responsible for all the frontend part.']
       },
     ],
@@ -280,7 +265,7 @@ const projects = [
       "typescript",
     ],
     links: {
-      preview: "/videos",
+      preview: "https://www.masheedgate.com/",
       code: null,
       design: null,
     },

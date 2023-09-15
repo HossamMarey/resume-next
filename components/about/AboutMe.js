@@ -27,7 +27,7 @@ const AboutMe = () => {
             <strong>Status : ..</strong> Buguard (full time)
           </p>
           <p>
-            <strong>Last Update : ..</strong> Jul. 2023
+            <strong>Last Update : ..</strong> Aug. 2023
           </p>
         </div>
         <div className="hire-me">
